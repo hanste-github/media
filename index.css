@@ -3,12 +3,11 @@
     -webkit-backdrop-filter: blur(20px) !important;
     backdrop-filter: blur(20px) !important;
     position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
+    top: 10px !important;
+    left: 10px !important;
+    right: 10px !important;
     height: 50px !important;
     padding: 10px !important;
-    overflow-x: auto !important;
 }
 
 .hs-media-navbar-left {
@@ -16,21 +15,11 @@
     -webkit-backdrop-filter: blur(20px) !important;
     backdrop-filter: blur(20px) !important;
     position: fixed !important;
-    top: 50px !important;
-    left: 0 !important;
-    bottom: 50px !important;
+    top: 70px !important;
+    left: 10px !important;
+    bottom: 70px !important;
     width: var(--hs-media-navbar-left-width) !important;
     overflow-y: auto !important;
-}
-
-.hs-media-navbar-right {
-    background-color: var(--hs-bl-001) !important;
-    -webkit-backdrop-filter: blur(20px) !important;
-    backdrop-filter: blur(20px) !important;
-    position: fixed !important;
-    top: 50px !important;
-    right: 0 !important;
-    bottom: 50px !important;
 }
 
 .hs-media-navbar-bottom {
@@ -38,9 +27,9 @@
     -webkit-backdrop-filter: blur(20px) !important;
     backdrop-filter: blur(20px) !important;
     position: fixed !important;
-    left: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
+    left: 10px !important;
+    right: 10px !important;
+    bottom: 10px !important;
     height: 50px !important;
     z-index: 1 !important;
 }
@@ -50,10 +39,10 @@
     -webkit-backdrop-filter: blur(3px) !important;
     backdrop-filter: blur(3px) !important;
     position: absolute !important;
-    top: 50px !important;
-    left: var(--hs-media-navbar-left-width);
-    right: 50px !important;
-    bottom: 50px !important;
+    top: 70px !important;
+    left: calc(20px + var(--hs-media-navbar-left-width)) !important;
+    right: 10px !important;
+    bottom: 70px !important;
 }
 
 /* Seitenbreite größer als 1001px */
