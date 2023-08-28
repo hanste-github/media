@@ -41,6 +41,7 @@
     left: 0 !important;
     right: 0 !important;
     bottom: 0 !important;
+    height: 50px !important;
     z-index: 1 !important;
 }
 
