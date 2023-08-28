@@ -54,3 +54,17 @@
     right: 50px !important;
     bottom: 50px !important;
 }
+
+/* Seitenbreite größer als 1001px */
+@media (min-width: 1001px) {
+    :root {
+        --hs-media-navbar-left: 200px !important;
+    }
+}
+
+/* Seitenbreite kleiner als 1000px */
+@media (max-width: 1000px) {
+    :root {
+        --hs-media-navbar-left: 50px !important;
+    }
+}
