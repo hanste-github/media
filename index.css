@@ -1,0 +1,25 @@
+.hs-media-navbar-top {
+    background-color: var(--hs-bl-001) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(20px) !important;
+}
+.hs-media-navbar-left {
+    background-color: var(--hs-bl-001) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(20px) !important;
+}
+.hs-media-navbar-right {
+    background-color: var(--hs-bl-001) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(20px) !important;
+}
+.hs-media-navbar-bottom {
+    background-color: var(--hs-bl-001) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(20px) !important;
+}
+.hs-media-content {
+    background-color: var(--hs-bl-001) !important;
+    -webkit-backdrop-filter: blur(3px) !important;
+    backdrop-filter: blur(3px) !important;
+}
