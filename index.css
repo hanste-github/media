@@ -59,13 +59,13 @@
 /* Seitenbreite größer als 1001px */
 @media (min-width: 1001px) {
     :root {
-        --hs-media-navbar-left: 200px !important;
+        --hs-media-navbar-left-width: 200px !important;
     }
 }
 
 /* Seitenbreite kleiner als 1000px */
 @media (max-width: 1000px) {
     :root {
-        --hs-media-navbar-left: 50px !important;
+        --hs-media-navbar-left-width: 50px !important;
     }
 }
