@@ -73,6 +73,66 @@
     <div class="hs-media-navbar-right">Right</div>
     <div class="hs-media-navbar-bottom">Bottom</div>
     <div class="hs-media-content">Content</div>
+
+    <!-- Einstellungen -->
+    <div class="offcanvas offcanvas-end blur3" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Einstellungen</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <form id="uploadForm" enctype="multipart/form-data" class="btn-group w-100 mb-2">
+                <input class="btn btn-warning" type="file" id="imageUpload" accept=".jpg, .jpeg, .png">
+                <button class="btn btn-primary" type="submit"><i class="bi bi-check"></i></button>
+            </form>
+            <br>
+            <form id="urlForm" class="btn-group w-100">
+                <input class="btn btn-warning" type="text" id="imageUrl" placeholder="Bildadresse eingeben">
+                <button class="btn btn-primary" type="submit"><i class="bi bi-check"></i></button>
+            </form>
+            <hr>
+            <div class="btn-group-vertical w-100" role="group" aria-labelledby="bd-theme-text">
+                <button type="button" class="btn btn-light" data-bs-theme-value="light" aria-pressed="false">
+                    <svg class="bi me-2 theme-icon" style="width: 20px; height: 20px;"><use href="#sun-fill"></use></svg>
+                    Light
+                </button>
+                <button type="button" class="btn btn-dark" data-bs-theme-value="dark" aria-pressed="false">
+                    <svg class="bi me-2 theme-icon" style="width: 20px; height: 20px;"><use href="#moon-stars-fill"></use></svg>
+                    Dark
+                </button>
+                <button type="button" class="btn btn-secondary" data-bs-theme-value="auto" aria-pressed="true">
+                    <svg class="bi me-2 theme-icon" style="width: 20px; height: 20px;"><use href="#circle-half"></use></svg>
+                    Auto
+                </button>
+            </div>
+        </div>
+    </div>
+  
+    <!-- Search -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-fullscreen-lg-down modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content blur1">
+                <div class="modal-header">
+                    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search ...">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body hs-bg-trans">
+                    <ul id="myUL" class="nav flex-column">
+                        <li>
+                            <a class="nav-link" href="/tutorials/index.html">Tutorials
+                                <p class="m-1">#tutorials</p>
+                            </a>
+                        </li>
+                        <li><a class="nav-link" href="/store/index.html">Store</a></li>
+                        <li><a class="nav-link" href="/os/index.html">OS</a></li>
+                        <li><a class="nav-link" href="/media/index.html">Media</a></li>
+                        <li><a class="nav-link" href="/video/index.html">Video</a></li>
+                        <li><a class="nav-link" href="/shop/index.html">Shop</a></li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+    </div>
     
     <!-- Javascript -->
     <script src="/js/index.js"></script>
