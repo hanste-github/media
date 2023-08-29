@@ -53,12 +53,18 @@
     text-align: var(--hs-media-search-align);
 }
 
+.hs-media-search::after {
+    padding-left: 10px !important;
+    content: var(--hs-media-search-content) !important;
+}
+
 /* Seitenbreite größer als 1001px */
 @media (min-width: 1001px) {
     :root {
         --hs-media-navbar-left-width: 200px !important;
         --hs-media-search-width: 500px !important;
         --hs-media-search-align: start !important;
+        --hs-media-search-content: Search... !important;
     }
 }
 
