@@ -45,10 +45,18 @@
     bottom: 70px !important;
 }
 
+.hs-media-search {
+    height: 30px !important;
+    border: 1px solid var(--hs-tx-001) !important;
+    border-radius: 15px !important;
+    width: var(--hs-media-search-width) !important;
+}
+
 /* Seitenbreite größer als 1001px */
 @media (min-width: 1001px) {
     :root {
         --hs-media-navbar-left-width: 200px !important;
+        --hs-media-search-width: 500px !important;
     }
 }
 
@@ -56,5 +64,6 @@
 @media (max-width: 1000px) {
     :root {
         --hs-media-navbar-left-width: 50px !important;
+        --hs-media-search-width: 30px !important;
     }
 }
