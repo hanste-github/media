@@ -50,6 +50,7 @@
     border: 1px solid var(--hs-tx-001) !important;
     border-radius: 15px !important;
     width: var(--hs-media-search-width) !important;
+    text-align: var(--hs-media-search-align);
 }
 
 /* Seitenbreite größer als 1001px */
@@ -57,6 +58,7 @@
     :root {
         --hs-media-navbar-left-width: 200px !important;
         --hs-media-search-width: 500px !important;
+        --hs-media-search-align: start !important;
     }
 }
 
@@ -65,5 +67,6 @@
     :root {
         --hs-media-navbar-left-width: 50px !important;
         --hs-media-search-width: 30px !important;
+        --hs-media-search-align: center !important;
     }
 }
