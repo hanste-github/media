@@ -55,6 +55,10 @@
     text-align: var(--hs-media-search-align);
 }
 
+.hs-media-navbar-left-show {
+    display: var(--hs-media-navbar-left-show) !important;
+}
+
 /* Seitenbreite größer als 1001px */
 @media (min-width: 1001px) {
     :root {
@@ -70,5 +74,6 @@
         --hs-media-navbar-left-width: 50px !important;
         --hs-media-search-width: 30px !important;
         --hs-media-search-align: center !important;
+        --hs-media-navbar-left-show: none !important;
     }
 }
