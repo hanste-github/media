@@ -67,6 +67,13 @@
     display: var(--hs-media-navbar-left-show) !important;
 }
 
+#hs-media-played-titel {
+    height: 40px !important;
+    margin: 5px !important;
+    border-radius: 10px !important;
+    background-color: var(--hs-bl-001) !important;
+}
+
 /* Seitenbreite größer als 1001px */
 @media (min-width: 1001px) {
     :root {
