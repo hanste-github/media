@@ -73,34 +73,58 @@
     <div class="hs-media-navbar-left rounded">
         <ul class="nav flex-column mb-auto">
             <li>
-                <a href="#" class="nav-link" aria-current="page">
+                <a href="#" onclick="hschangeContent('hscontent1')" class="nav-link" aria-current="page">
                     <i class="bi bi-music-note-beamed me-2"></i><div class="hs-media-navbar-left-show">Musik</div>
                 </a>
                 <div class="ms-1">
-                    <a href="#" class="nav-link" aria-current="page">
+                    <a href="#" onclick="hschangeContent('hscontent2')" class="nav-link" aria-current="page">
                         <i class="bi bi-music-note-list me-2"></i><div class="hs-media-navbar-left-show">Genre</div>
                     </a>
-                    <a href="#" class="nav-link" aria-current="page">
+                    <a href="#" onclick="hschangeContent('hscontent3')" class="nav-link" aria-current="page">
                         <i class="bi bi-people me-2"></i><div class="hs-media-navbar-left-show">Artist</div>
                     </a>
-                    <a href="#" class="nav-link" aria-current="page">
+                    <a href="#" onclick="hschangeContent('hscontent4')" class="nav-link" aria-current="page">
                         <i class="bi bi-disc me-2"></i><div class="hs-media-navbar-left-show">Album</div>
                     </a>
-                    <a href="#" class="nav-link" aria-current="page">
+                    <a href="#" onclick="hschangeContent('hscontent5')" class="nav-link" aria-current="page">
                         <i class="bi bi-list me-2"></i><div class="hs-media-navbar-left-show">Alle Titel</div>
                     </a>
                 </div>
             </li>
             <hr>
             <li class="nav-item">
-                <a href="#" class="nav-link" aria-current="page">
+                <a href="#" onclick="changeContent('content6')" class="nav-link" aria-current="page">
                     <i class="bi bi-camera-video me-2"></i><div class="hs-media-navbar-left-show">Video</div>
                 </a>
             </li>
         </ul>
     </div>
     <div class="hs-media-navbar-bottom rounded">Bottom</div>
-    <div class="hs-media-content rounded">Content</div>
+    <div class="hs-media-content rounded">
+        <!-- Content -->
+        <div id="hs-media-content">
+            Standardinhalt
+        </div>
+        
+        <div id="hscontent1" class="hsontent" style="display: none;">
+            Inhalt 1
+        </div>
+        <div id="hscontent2" class="hscontent" style="display: none;">
+            Inhalt 2
+        </div>
+        <div id="hscontent3" class="hscontent" style="display: none;">
+            Inhalt 3
+        </div>
+        <div id="hscontent4" class="hscontent" style="display: none;">
+            Inhalt 4
+        </div>
+        <div id="hscontent5" class="hscontent" style="display: none;">
+            Inhalt 5
+        </div>
+        <div id="hscontent6" class="hscontent" style="display: none;">
+            Inhalt 6
+        </div>
+    </div>
 
     <!-- Einstellungen -->
     <div class="offcanvas offcanvas-end blur3" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
