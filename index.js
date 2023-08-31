@@ -13,6 +13,6 @@ document.getElementById("hs-media-search-input").addEventListener("keyup", funct
 
 function hsmediasearchcontent() {
     var hscontent = document.getElementById('hs-media-content');
-    var hsmediasearchcontentb = document.getElementById(hs-media-search-content-b).innerHTML;
+    var hsmediasearchcontentb = document.getElementById('hs-media-search-content-b').innerHTML;
     hscontent.innerHTML = hsmediasearchcontentb;
 }
