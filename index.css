@@ -61,6 +61,7 @@
     border-radius: 15px !important;
     width: var(--hs-media-search-width) !important;
     text-align: var(--hs-media-search-align);
+    padding: 10px !important;
 }
 
 .hs-media-navbar-left-show {
