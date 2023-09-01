@@ -23,7 +23,6 @@
     overflow-y: auto !important;
     z-index: 50 !important;
 }
-
 .hs-media-navbar-left:hover {
     width: 200px !important;
 }
@@ -59,8 +58,6 @@
     height: 30px !important;
     border: 1px solid var(--hs-tx-001) !important;
     border-radius: 15px !important;
-    width: var(--hs-media-search-width) !important;
-    text-align: var(--hs-media-search-align);
     padding: 10px !important;
 }
 
@@ -79,8 +76,6 @@
 @media (min-width: 1001px) {
     :root {
         --hs-media-navbar-left-width: 200px !important;
-        --hs-media-search-width: 500px !important;
-        --hs-media-search-align: start !important;
     }
 }
 
@@ -88,8 +83,6 @@
 @media (max-width: 1000px) {
     :root {
         --hs-media-navbar-left-width: 50px !important;
-        --hs-media-search-width: 30px !important;
-        --hs-media-search-align: center !important;
         --hs-media-navbar-left-show: none !important;
     }
 }
