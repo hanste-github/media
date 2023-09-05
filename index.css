@@ -79,7 +79,7 @@
     vertical-align: middle !important;
     height: 200px !important;
     display: table-cell !important;
-    text-align: center;
+    text-align: center !important;
 }
 
 /* Seitenbreite größer als 1001px */
