@@ -72,6 +72,16 @@
     background-color: var(--hs-bl-001) !important;
 }
 
+.hs-media-button {
+    min-height: 200px !important;
+    min-width: 200px !important;
+    border-radius: 50% !important;
+    vertical-align: middle !important;
+    height: 200px !important;
+    display: table-cell !important;
+    text-align: center;
+}
+
 /* Seitenbreite größer als 1001px */
 @media (min-width: 1001px) {
     :root {
