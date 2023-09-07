@@ -56,7 +56,7 @@
 
 .hs-media-search {
     height: 40px !important;
-    border: 1px solid var(--hs-tx-001) !important;
+    border: none !important;
     border-radius: 10px !important;
     padding: 10px !important; 
     max-width: 600px !important;
@@ -72,6 +72,7 @@
     height: 40px !important;
     margin: 5px !important;
     border-radius: 10px !important;
+    padding: 10px !important; 
     background-color: var(--hs-bl-001) !important;
 }
 
