@@ -6,7 +6,7 @@
     top: 10px !important;
     left: 10px !important;
     right: 10px !important;
-    height: 50px !important;
+    height: 45px !important;
     padding: 5px !important;
     z-index: 100 !important;
 }
@@ -16,9 +16,9 @@
     -webkit-backdrop-filter: blur(20px) !important;
     backdrop-filter: blur(20px) !important;
     position: fixed !important;
-    top: 70px !important;
+    top: 65px !important;
     left: 10px !important;
-    bottom: 70px !important;
+    bottom: 80px !important;
     width: var(--hs-media-navbar-left-width) !important;
     overflow-y: auto !important;
     z-index: 50 !important;
@@ -35,10 +35,10 @@
     -webkit-backdrop-filter: blur(20px) !important;
     backdrop-filter: blur(20px) !important;
     position: fixed !important;
-    left: 10px !important;
-    right: 10px !important;
-    bottom: 10px !important;
-    height: 50px !important;
+    left:  10px !important;
+    right:  10px !important;
+    bottom:   10px !important;
+    height: 60px !important;
     z-index: 100 !important;
 }
 
@@ -47,15 +47,15 @@
     -webkit-backdrop-filter: blur(3px) !important;
     backdrop-filter: blur(3px) !important;
     position: absolute !important;
-    top: 70px !important;
+    top: 65px !important;
     left: calc(20px + var(--hs-media-navbar-left-width)) !important;
     right: 10px !important;
-    bottom: 70px !important;
+    bottom: 80px !important;
     z-index: 1 !important;
 }
 
 .hs-media-search {
-    height: 40px !important;
+    height: 35px !important;
     border: none !important;
     border-radius: 10px !important;
     padding: 10px !important; 
@@ -69,10 +69,24 @@
 }
 
 #hs-media-played-titel {
-    height: 40px !important;
-    margin: 5px !important;
+    height: 60px !important;
     border-radius: 10px !important;
     background-color: var(--hs-bl-001) !important;
+}
+
+@-webkit-keyframes hs-media-played-titel-pogressbar-inner {
+    0%  {background-color: var(--hs-bg-001)}
+    10%  {background-color: var(--hs-bg-002)}
+    18%  {background-color: var(--hs-bg-003)}
+    28%  {background-color: var(--hs-bg-004)}
+    36%  {background-color: var(--hs-bg-005)}
+    44%  {background-color: var(--hs-bg-006)}
+    54%  {background-color: var(--hs-bg-007)}
+    64%  {background-color: var(--hs-bg-008)}
+    72%  {background-color: var(--hs-bg-009)}
+    80%  {background-color: var(--hs-bg-010)}
+    90%  {background-color: var(--hs-bg-011)}
+    100%  {background-color: var(--hs-bg-012)}
 }
 
 .hs-media-button {
