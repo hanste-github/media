@@ -68,28 +68,28 @@
     </div>
 
     <div class="hs-media-navbar-bottom rounded justify-content-center d-flex">
-        <button class="hs-btn" style="height: 60px !important; width: 60px !important;">
+        <button class="hs-btn" style="height: 60px !important; width: 60px !important;" onclick="hsmediaBack()">
             <i class="bi bi-skip-start"></i>
         </button>
-        <button class="hs-btn" style="height: 60px !important; width: 60px !important;">
+        <button class="hs-btn" style="height: 60px !important; width: 60px !important;" onclick="hsmediaPlay()">
             <i class="bi bi-play"></i>
         </button>
-        <button class="hs-btn" style="height: 60px !important; width: 60px !important;">
+        <button class="hs-btn" style="height: 60px !important; width: 60px !important;" onclick="hsmediaStop()">
             <i class="bi bi-stop"></i>
         </button>
-        <button class="hs-btn" style="height: 60px !important; width: 60px !important;">
+        <button class="hs-btn" style="height: 60px !important; width: 60px !important;" onclick="hsmediaPrev()">
             <i class="bi bi-skip-end"></i>
         </button>
         <div id="hs-media-played-titel" class="w-100">
             <div>
                 <div style="height: 30px;">
-                    <p style="text-align: center; line-height: 20px !important;padding-top: 2px;">Derzeit gespielter Titel</p>
+                    <p style="text-align: center; line-height: 20px !important;padding-top: 2px;" id="hs-media-name">- Name -</p>
                 </div>
                 <div style="height: 30px;">
                     <div class="d-flex w-100">
-                        <div style="line-height: 14px;height: 20px !important;padding: 2px 2px 2px 10px;">XX:XX:XX</div>
-                        <div class="mx-auto" style="line-height: 14px;height: 20px !important;padding: 2px 2px 2px 10px;">Artist</div>
-                        <div style="line-height: 14px;height: 20px !important;padding: 2px 10px 2px 2px;" class="">XX:XX:XX</div>
+                        <div style="line-height: 14px;height: 20px !important;padding: 2px 2px 2px 10px;" id="hs-media-time-start"></div>
+                        <div class="mx-auto" style="line-height: 14px; height: 20px !important; padding: 2px 2px 2px 10px; display: var(--hs-media-navbar-left-show) !important;">- Artist -</div>
+                        <div style="line-height: 14px;height: 20px !important;padding: 2px 10px 2px 2px;" id="hs-media-time-end"></div>
                     </div>
                     <div role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px !important; background: var(--hs-bl-001);" class="progress">
                         <div style="width: 20%;-webkit-animation: hs-media-played-titel-pogressbar-inner 50s infinite alternate;animation: hs-media-played-titel-pogressbar-inner 100s infinite alternate;" class="progress-bar"></div>
