@@ -30,3 +30,5 @@ function hsmediasearchcontent() {
       }
     }
 }
+
+function hsactivateScript() {}
