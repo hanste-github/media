@@ -63,6 +63,10 @@
     transform: translate(-50%) !important;
     margin-left: 50% !important;
 }
+.hs-wiki-search:focus {
+    border: none !important;
+    outline: none !important;
+}
 
 .hs-media-navbar-left-show {
     display: var(--hs-media-navbar-left-show) !important;
